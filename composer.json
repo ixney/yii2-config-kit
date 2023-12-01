@@ -17,6 +17,7 @@
         "vlucas/phpdotenv": "^2.4"
     },
     "require-dev": {
+        "roave/security-advisories": "dev-latest",
         "phpunit/phpunit": "^6.0",
         "squizlabs/php_codesniffer": "^2.7",
         "friendsofphp/php-cs-fixer": "^2.0",
@@ -27,12 +28,12 @@
     },
     "autoload" : {
         "psr-4": {
-            "Da\\Config\\": ["./src"]
+            "Sidekit\\Config\\": ["./src"]
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Da\\Config\\Tests\\": "./tests"
+            "Sidekit\\Config\\Tests\\": "./tests"
         }
     }
 }
