@@ -12,13 +12,11 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": ">=7.0",
+        "php": ">=8.0",
         "league/container": "^2.2",
-        "vlucas/phpdotenv": "^2.4"
+        "vlucas/phpdotenv": "^v5.6.0"
     },
     "require-dev": {
-        "roave/security-advisories": "dev-latest",
-        "phpunit/phpunit": "^6.0",
         "squizlabs/php_codesniffer": "^2.7",
         "friendsofphp/php-cs-fixer": "^2.0",
         "phpmd/phpmd": "^2.4"
